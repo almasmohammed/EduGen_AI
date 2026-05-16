@@ -1,0 +1,62 @@
+Introduction to Machine Learning
+
+Machine Learning (ML) is a subset of Artificial Intelligence (AI) that enables systems to learn and improve from experience without being explicitly programmed. The core idea is to allow machines to learn from data.
+
+Types of Machine Learning:
+
+1. Supervised Learning
+Supervised learning uses labeled training data to learn a mapping from inputs to outputs. Examples include:
+- Linear Regression: Predicts continuous values (e.g., house prices)
+- Logistic Regression: Predicts binary outcomes (yes/no)
+- Decision Trees: Uses a tree-like model of decisions
+- Support Vector Machines (SVM): Finds the optimal hyperplane to separate classes
+- Neural Networks: Mimics the human brain using layers of neurons
+
+2. Unsupervised Learning
+Unsupervised learning finds hidden patterns in data without labeled responses. Key algorithms include:
+- K-Means Clustering: Groups data into K clusters based on similarity
+- Principal Component Analysis (PCA): Reduces dimensionality while preserving variance
+- Autoencoders: Neural networks that learn efficient data representations
+
+3. Reinforcement Learning
+Reinforcement learning involves an agent learning to make decisions by interacting with an environment to maximize cumulative reward. Key concepts:
+- Agent: The learner or decision maker
+- Environment: What the agent interacts with
+- Reward: Feedback signal for actions taken
+- Policy: Strategy that maps states to actions
+
+Key Concepts in Machine Learning:
+
+Training and Testing:
+The dataset is split into training data (used to train the model) and test data (used to evaluate performance). A validation set is often used for hyperparameter tuning.
+
+Overfitting and Underfitting:
+- Overfitting: Model learns the training data too well, failing to generalize
+- Underfitting: Model is too simple to capture patterns in the data
+- The Bias-Variance Tradeoff balances these two problems
+
+Evaluation Metrics:
+- Accuracy: Percentage of correct predictions
+- Precision: Ratio of true positives to all positive predictions
+- Recall: Ratio of true positives to all actual positives
+- F1 Score: Harmonic mean of precision and recall
+- Mean Squared Error (MSE): Average squared difference between predictions and actuals
+
+Feature Engineering:
+The process of using domain knowledge to extract features from raw data. Important techniques include:
+- Normalization: Scaling features to a standard range
+- One-hot encoding: Converting categorical variables to binary
+- Feature selection: Choosing the most relevant features
+
+Popular ML Frameworks:
+- TensorFlow: Open-source framework by Google
+- PyTorch: Open-source framework by Facebook (Meta)
+- Scikit-learn: Python library for classical ML algorithms
+- Keras: High-level neural networks API
+
+Applications of Machine Learning:
+- Image Recognition: Self-driving cars, facial recognition
+- Natural Language Processing: Chatbots, translation, sentiment analysis
+- Recommendation Systems: Netflix, Amazon, YouTube
+- Healthcare: Disease diagnosis, drug discovery
+- Finance: Fraud detection, algorithmic trading
